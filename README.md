@@ -107,6 +107,13 @@ exit(EXIT_SUCCESS);
 
 
 ## OUTPUT
+```
+$ ./fifo1.o 
+FIFO created
+
+$ ls -l /tmp/my_fifo 
+prwxr-xr-x 1 gganesh gganesh 0 Sep 17 09:25 /tmp/my_fifo
+```
 ![image](https://github.com/SusithraB/Linux-IPC-Pipes/assets/146347839/b21d7968-d3e2-465c-bb7b-9d7755feef8e)
 ![image](https://github.com/SusithraB/Linux-IPC-Pipes/assets/146347839/1ffc61d0-e543-462b-9c36-c1d8f2219150)
 
